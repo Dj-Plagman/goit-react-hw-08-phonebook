@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin-left: 26px;
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(26, 128, 0);
+}
+
+.titleText {
+  margin-left: 26px;
+  font-size: 26px;
+  font-weight: bold;
+  color: teal;
+}
+
+.userBtn {
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100px;
+  color: rgb(83, 41, 110);
+  border: 2px solid rgb(53, 78, 219);
+  background-color: #fff;
+}
+
+.userBtn:hover,
+.userBtn:focus {
+  color: #fff;
+  background-color: rgb(53, 78, 219);
+  font-weight: 500;
+  border: 2px solid #fff;
+}
